@@ -1,0 +1,15 @@
+p::first-letter {
+    color: blue;
+    font-size: 25px;
+}
+
+#myid {
+    text-align: center;    
+}
+
+
+nav ul li {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+}
