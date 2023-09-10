@@ -1,0 +1,135 @@
+body {
+
+    margin: 0;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 40px;
+    margin: 6px;
+    cursor: pointer;
+
+    font-weight: bold;
+}
+.navigation ul li:hover{
+    color: red;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    
+
+    background-color: rgb(126,0,25);
+    height: 100px;
+}
+
+.r p{
+    display: flex;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.headline p: {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 15px;
+    
+}
+.headline p{
+    text-transform: uppercase;
+    text-align: center;
+}
+.headline{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.buttons {
+    background-color: rgb(141, 39, 39);
+    
+}
+.button {
+    background-color: rgb(141, 39, 39);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+.stats{
+    background-color: rgb(230, 233, 236);
+}
+.news4{
+    border-right: 1px solid white;
+}
+
+.kills{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+.stats h4{
+    color: red;
+
+    padding: 10px;
+    margin-left: 250px;
+}
+.dead unit p{
+    font-size: 10px;
+}
+.dead unit{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* gap: 1px; */
+}
+.dead unit .count{
+    font-weight: bold;
+}
+.news{
+    background-color: rgb(59,59,62);
+}
+.news img{
+    width: 230px;
+    height: 128px;
+}
+.news3{
+    color: white;
+    display: flex;
+    font-size: 40px;
+    gap: 20px;
+    text-align: start;
+}
+.news3 h3 {
+    margin-top: -8px;
+}
+.news2{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.list-news ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 23px;
+    color: white;
+  }
+  
+.list-news ul li::marker {
+    content: "▪";
+    font-weight:bold;
+    color: red;
+}
