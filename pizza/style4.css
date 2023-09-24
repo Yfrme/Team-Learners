@@ -1,0 +1,650 @@
+body {
+    margin: 0;
+    padding: 0;   
+}
+
+header {
+    background-color: #f5f5f5;
+    height: 130px;
+    
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    align-self: center;
+    gap: 100px;
+}
+
+.container-header ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+   
+}                           
+
+.container-header {
+    gap: 25px;
+    margin-right: 300px;
+    display: flex;
+    padding: 20px;  
+    font-size: 26px; 
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    align-self: center;
+    height: 41px;
+}
+
+.logo {
+    background-color: rgb(255, 255, 255);
+    padding-left: 500px ;
+    margin-left: -280px;
+    transform: skewX(16deg);
+    height: 100px;
+}
+
+.logo img {
+    padding:15px 70px;
+}
+
+.text-pizza {
+    padding: 3%;
+    
+}
+
+.text-pizza h1 {
+    font-size: 130px; 
+    margin-left: 18%;
+    white-space: pre-line; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-pizza p {
+    font-size: 20px;
+    margin-left: 18%;
+    white-space: pre-line;
+    margin-bottom: 40px;
+}
+
+.text-pizza button {
+    width: 250px;
+    height: 80px;
+    background-color: yellow;
+    font-size: 15px;
+    border: none;
+    color: rgb(0, 0, 0) ;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
+    margin-left: 18%;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.text-pizza button:hover {
+    background-color: rgb(14, 209, 134);
+    color: white;
+}
+
+.picture-pizza {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/slide-1-1920x753.jpg');
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-menu {
+    display: flex;
+    margin: 100px;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.menu h2 {
+    font-size: 60px;
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.vrapper-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 15px;
+    width: 1200px;
+    height: 615px;
+}
+
+.photo-salad {
+    width: 369px;
+    height: 277px;
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/menu-1-370x278.jpg');   
+}
+
+.photo-pizza {
+    width: 369px;
+    height: 277px;
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/menu-2-370x278.jpg');
+
+}
+
+.photo-burger {
+    width: 369px;
+    height: 277px;
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/menu-3-370x278.jpg');
+
+}
+
+.photo-dessert {
+    width: 369px;
+    height: 277px;
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/menu-4-370x278.jpg');
+}
+
+.photo-drink {
+    width: 369px;
+    height: 277px;
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/menu-5-370x278.jpg');
+
+}
+
+.photo-seafood {
+    width: 369px;
+    height: 277px;
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/menu-6-370x278.jpg');
+
+}
+
+.text {
+    text-align: center; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.menu {
+    padding: 50px;
+}
+
+.menu-pizza h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 150px;
+
+}
+.container-picture {
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat; 
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/slide-1-1920x753.jpg');
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.container-picture button {
+    width: 250px;
+    height: 80px;
+    background-color: rgb(14, 209, 134);
+    font-size: 15px;
+    border: none;
+    color: rgb(255, 255, 255) ;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
+    margin-left: 60%;
+    font-weight: bold;
+    margin-bottom: 40px;
+} 
+
+.container-picture button:hover {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+.container-picture p {
+    margin-left: 60%;
+    font-size: 28px;
+    white-space: pre-line;
+}
+
+.container-picture h3 {
+    margin-left: 60%;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.container-picture span {
+    margin-left: 60%;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.container-pizza {
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 2%;
+    width: 1200px;
+    height: 615px;
+}
+.container-pizza h6 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.margarita {
+    display: flex;
+    width: 280px; 
+    height: 400px;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    
+}
+
+
+.border {
+    width: 100%; 
+    height: 100%; 
+    border: 2px solid    #888888; 
+    box-sizing: border-box; 
+    position: relative; 
+    border-radius: 5px;
+
+}
+.margarita img{
+    margin-top: 40px;
+}
+
+.margarita h6 {
+    margin-left: 50px;
+    font-size: 19px;
+    margin-top: 20%;
+
+}
+
+.margarita span {
+    font-size: 19px;
+    color: rgb(94, 41, 240);
+    margin-right: 45%;
+}
+
+.mushroom {
+    display: flex;
+    width: 280px; 
+    height: 400px;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    
+}
+
+.mushroom img{
+    margin-top: 40px;
+}
+
+.mushroom h6 {
+    margin-left: 50px;
+    font-size: 19px;
+    margin-top: 20%;
+
+}
+
+.mushroom span {
+    font-size: 19px;
+    color: rgb(94, 41, 240);
+    margin-right: 45%;
+}
+  
+.hawaliian {
+    display: flex;
+    width: 280px; 
+    height: 400px;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    
+}
+
+
+
+.hawaliian img{
+    margin-top: 40px;
+}
+
+.hawaliian h6 {
+    margin-left: 50px;
+    font-size: 19px;
+    margin-top: 20%;
+
+}
+
+.hawaliian span {
+    font-size: 19px;
+    color: rgb(94, 41, 240);
+    margin-right: 45%;
+}
+
+
+.pesto {
+    display: flex;
+    width: 280px; 
+    height: 400px;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    
+}
+
+
+
+.pesto img{
+    margin-top: 40px;
+}
+
+.pesto h6 {
+    margin-left: 50px;
+    font-size: 19px;
+    margin-top: 20%;
+
+}
+
+.pesto span {
+    font-size: 19px;
+    color: rgb(94, 41, 240);
+    margin-right: 45%;
+}
+.container-sell {
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat; 
+    background-image: url('https://livedemo00.template-help.com/wt_51689/images/slide-1-1920x753.jpg');
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.container-sell button {
+    width: 250px;
+    height: 80px;
+    background-color: yellow;
+    font-size: 15px;
+    border: none;
+    color: rgb(0, 0, 0) ;
+    transition: background-color 1s ease;
+    transition: color 1s ease;
+    margin-left: 60%;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 25px;
+} 
+
+.container-sell button:hover {
+    background-color: rgb(14, 209, 134);
+    color: rgb(255, 255, 255);
+}
+
+.container-sell h3 {
+    margin-left: 60%;
+    font-size: 60px;
+    margin-top: 100px;
+    white-space: pre-line;
+}
+
+.container-sell span {
+    margin-left: 61%;
+    padding: 20px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.feedback-pizza {
+    display: flex;
+    width: 350px; 
+    height: 260px;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.feedback-border {
+    width: 100%; 
+    height: 100%; 
+    border: 2px solid    #888888; 
+    box-sizing: border-box; 
+    position: relative; 
+    border-radius: 5px;
+
+}
+
+.feedback-pizza p {
+    margin-top: 20%;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.feedback h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 130px;
+}
+
+.client-name p {
+    margin-top: 2px;
+    display: flex;
+    align-items: center ;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center; 
+    font-size: 22px; 
+    color: black;
+}
+
+.client-name span {
+    font-size: 18px;
+    color: rgb(94, 41, 240);
+}
+
+.client-name img {
+    margin-top: 20px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    margin-top: 15%;
+    align-content: center; 
+    flex-wrap: wrap; 
+}
+.grid-item1 {
+    width: 310px;
+    height: 585px;
+}
+
+.grid-item2 {
+
+    width: 631px;
+    height: 587px;
+}
+
+.grid-item3 {
+    width: 311px;
+    height: 289px;
+    display: flex;
+}
+
+.grid-item4 {
+    width: 631px;
+    height: 289px;
+}
+
+.grid-item5 {
+    display: flex;
+    margin-left: 50%;
+
+    width: 311px;
+    height: 289px;
+}
+
+.grid-item6 {
+    width: 311px;
+    height: 289px;
+}
+
+.grid-item7 {
+    width: 311px;
+    height: 289px;
+}
+
+.grid-item8 {
+    width: 310px;
+    height: 289px;
+}
+.table h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.inputs {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20% ;
+    gap: 30px;
+}
+.username input {
+    width: 350px;
+    height: 60px;
+    font-size: 18px;
+    color: gray;
+    border: 1px solid rgb(173, 173, 173);
+    
+}
+
+.email input {
+    width: 350px;
+    height: 60px;
+    font-size: 18px;
+    color: gray;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.service input {
+    width: 350px;
+    height: 60px;
+    font-size: 18px;
+    color: gray;
+    border: 1px solid rgb(173, 173, 173); 
+}
+
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4% ;  
+}
+
+.message input {
+    width: 1143px;
+    height: 200px;
+    font-size: 18px;
+    color: gray; 
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.button-send {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 19.8%;
+    width: 245px;
+    height: 84px;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    background-color: yellow;   
+    border: none;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.button-send:hover {
+    background-color:rgb(14, 209, 134);
+    color: rgb(255, 255, 255);
+}
+footer {
+    background-color: #3f3f3f;
+}
+.offer h3 {
+    display: flex;  
+}
+
+.about h3 {
+    display: flex;   
+}
+.news h3 {
+    display: flex;     
+}
+.offer ul {
+    list-style: none;
+}
+
+.about ul {
+    list-style: none;
+}
+
